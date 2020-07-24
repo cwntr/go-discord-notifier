@@ -3,7 +3,7 @@
 Scrapes different platforms by certain keywords posts the results to Discord. 
 
 ## Currently implemented
-##### 1. 4chan.org /biz/
+##### 1. https://boards.4channel.org/biz/catalog
 
 ## Usage
 
