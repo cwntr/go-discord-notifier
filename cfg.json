@@ -1,0 +1,7 @@
+{
+  "keywords": ["keyword1", "keyword2"],
+  "discordToken": "your-bot-token",
+  "discordNewThreadChannelID": "discord-channel-id",
+  "discordUpdateThreadChannelID": "discord-channel-id",
+  "interval": "5s"
+}
