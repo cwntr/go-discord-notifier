@@ -101,7 +101,7 @@ func Process(config common.Config) error {
 		return err
 	}
 
-	//before processing
+	//after processing
 	sanitizeCSVFile()
 	return nil
 }
@@ -135,6 +135,7 @@ func sanitizeCSVFile() {
 	}
 }
 
+// isCorrectCSVFormat func checks whether the all lines of the csv have the correct format considering the separator
 func isCorrectCSVFormat(str string) bool {
 	sepStr := strings.Replace(strconv.QuoteRune(CSVSeparator), "'", "", -1)
 	var re = regexp.MustCompile(fmt.Sprintf(`^(\d+)(\%s)(\d+)(\%s)`, sepStr, sepStr))
