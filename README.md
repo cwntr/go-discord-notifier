@@ -1,6 +1,6 @@
 # go-discord-notifier
 
-Scrapes different (e.g. 4chan) by certain keywords posts the results to Discord. 
+Scrapes different platforms (e.g. 4chan) by certain keywords posts the results to Discord. 
 
 ## Currently implemented
 ##### 1. https://boards.4channel.org/biz/catalog
